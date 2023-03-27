@@ -109,6 +109,10 @@ html_css_files = [
     "css/contributors.css",
 ]
 
+# -- Options for man page output ------------------------------------------------
+
+man_pages = [("man_page", "parfive", "Parfive Documentation", ["Parfive contributors"], 1)]
+
 # Render inheritance diagrams in SVG
 graphviz_output_format = "svg"
 
